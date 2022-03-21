@@ -1,7 +1,14 @@
 <template>
 	<div class="thourth_block">
 		<!--<div class="col-12">
-			<input type="radio" id="var1" name="variant" value="">
+			<input
+				type="radio"
+				id="var1"
+				class="initial"
+				
+				name="variant"
+				value=""
+			>
 			<label for="var1">Variant 1</label>
 			<input type="radio" id="var2" name="variant" value="">
 			<label for="var2">Variant 2</label>
@@ -9,11 +16,11 @@
 			<label for="var3">Variant 3</label>
 		</div>-->
 		<div class="col-md-4"></div>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<span>Suur lugu</span>
 			<h3>TOP 15 Tallinna kolemaja. Kaua need linnapilti risustavad?</h3>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-2">
 			<button-one>Vaata siia</button-one>
 		</div>
 	</div>
@@ -43,7 +50,6 @@ export default {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
-		border-radius: 10px 0 0 10px;
 	}
 	h3 {
 		display: block;
@@ -67,13 +73,23 @@ export default {
 		background: #E5513E;
 		color: #fff!important;
 		border-radius: 20px;
-
+		font-size: 10px;
+		line-height: 12px;
+		padding: 15px 30px;
 	}
 
 	@media (min-width:768px) {
-		.thourth_block {
+	.thourth_block {
 		padding: 0;
 		border-radius: 20px;
+	}
+
+	.thourth_block .btn {
+		padding: 10px 15px;
+	}
+
+	.col-md-4:nth-child(1) {
+		border-radius: 10px 0 0 10px;
 	}
 
 	h3 {

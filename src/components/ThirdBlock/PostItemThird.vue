@@ -25,16 +25,12 @@ export default {
 <style scoped>
 
 	.post_box {
-	margin: 15px 0 0 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-	.post_box:nth-child(2n) {
-		padding: 15px 0 15px 15px;
+		display: flex;
+		justify-content: space-between;
 	}
-	.post_box:nth-child(2n-1){
-		padding: 15px 15px 15px 0;
+
+	.post_box:nth-child(2) {
+		margin: 30px 0 0 0
 	}
 
 	h5{
@@ -85,8 +81,17 @@ export default {
 
 @media (min-width:768px) {
 	.post_box {
-	flex:0 0 30%;
-	max-width:30%;
-}
+		flex:0 0 30%;
+		max-width:30%;
+	}
+	.post_box:nth-child(2) {
+		margin: 0
+	}
+		.post_box:nth-child(2n) {
+		padding: 15px 0 15px 15px;
+	}
+	.post_box:nth-child(2n-1){
+		padding: 15px 15px 15px 0;
+	}
 }
 </style>

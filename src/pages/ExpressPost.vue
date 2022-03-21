@@ -14,16 +14,18 @@
 			v-if="!isPostsLoading"
 		/>
 		<preloader-one v-else></preloader-one>
+		<thourth-block/>
 	</div>
 </template>
 <script>
 import PostList from "@/components/SecondBlock/PostList";
 import PostListLast from "@/components/FirstBlock/PostListLast";
 import PostListThird from "@/components/ThirdBlock/PostListThird";
+import ThourthBlock from "@/components/ThourthBlock";
 import axios from 'axios';
 export default {
 	components: {
-		PostList, PostListLast, PostListThird
+		PostList, PostListLast, PostListThird, ThourthBlock
 	},
 	data(){
 		return {
