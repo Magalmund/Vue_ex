@@ -1,22 +1,20 @@
 <template>
-	<div v-if="posts.length > 0">
-		<h3>Список постов</h3>
-		<post-item
+	<div class="post_list" v-if="posts.length > 0">
+		<tab-list-one-item
 			v-for="post in posts"
 			:post="post"
 			:key="post.id"
-			@remove="$emit('remove', post)"
 		/>
 	</div>
 	<h2 v-else style="color: red">
-		Список постов пуст
+		List empty
 	</h2>
 </template>
 
 <script>
-import PostItem from './PostItem.vue'
+import TabListOneItem from './TabListOneItem.vue'
 export default {
-  components: { PostItem },
+  components: { TabListOneItem },
 	props: {
 		posts: {
 			type: Array,
@@ -27,5 +25,8 @@ export default {
 </script>
 
 <style scoped>
-
+	.post_list {
+		display:flex;
+		flex-wrap: wrap;
+	}
 </style>

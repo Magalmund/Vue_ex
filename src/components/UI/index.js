@@ -1,9 +1,7 @@
 import ButtonOne from "@/components/UI/ButtonOne";
-import InputOne from "@/components/UI/InputOne";
-import DialogOne from "@/components/UI/DialogOne";
+import PreloaderOne from "@/components/UI/PreloaderOne";
 
 export default [
 	ButtonOne,
-	InputOne,
-	DialogOne
+	PreloaderOne
 ]

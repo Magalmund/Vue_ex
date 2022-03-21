@@ -14,8 +14,11 @@ export default {
 	.btn {
 	padding: 10px 15px;
 	background: none;
-	color: teal;
-	border: 1px solid teal;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 8px;
+	border: none;
 	text-align: center;
 	cursor: pointer
 }

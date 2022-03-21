@@ -1,9 +1,9 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server-1", "body": "typicode-1" },
-		{ "id": 2, "title": "json-server-2", "body": "typicode-2" },
-		{ "id": 3, "title": "json-server-3", "body": "typicode-3" },
-		{ "id": 4, "title": "json-server-4", "body": "typicode-4" },
-		{ "id": 5, "title": "json-server-5", "body": "typicode-5" }
+    { "id": 1, "title": "Ööpäevaga suri koronaviiruse tagajärjel üks inimene, lisandus 8 positiivset testi", "body": "Viimase ööpäeva jooksul analüüsiti Eestis 697 haigust COVID-19 põhjustava SARS-CoV-2 viiruse testi, millest 5 ehk 0,7 protsenti osutusid positiivseks.", "author": "Tarmo Paju", "date": "16:45" },
+		{ "id": 2, "title": "Itaalia laskesuusatäht süüdistas norralasi ebasportlikus käitumises: olen pettunud!", "body": "Itaalia laskesuusatäht Dorothea Wierer suutis tänavu MK-sarjas kaitsta mullust üldvõitu. Itaallanna rääkis nüüd kohalikule meediale, kuidas norralased tegid endast kõik, et tema võidule kriips peale tõmmata.", "author": "Tarmo Paju", "date": "18:45" },
+		{ "id": 3, "title": "Itaalia laskesuusatäht süüdistas norralasi ebasportlikus käitumises: olen pettunud!", "body": "Itaalia laskesuusatäht Dorothea Wierer suutis tänavu MK-sarjas kaitsta mullust üldvõitu. Itaallanna rääkis nüüd kohalikule meediale, kuidas norralased tegid endast kõik, et tema võidule kriips peale tõmmata.", "author": "Tarmo Paju", "date": "18:45" },
+		{ "id": 4, "title": "Venemaa võtab koroona vastu kasutusele Jaapani „imeravimi“", "body": "Itaalia laskesuusatäht Dorothea Wierer suutis tänavu MK-sarjas kaitsta mullust üldvõitu. Itaallanna rääkis nüüd kohalikule meediale, kuidas norralased tegid endast kõik.", "author": "Tarmo Paju", "date": "18:45"},
+		{ "id": 5, "title": "Teadlased: praegune 5G on sama ohtlik kui wifi. Tulevikus võib olla teisiti", "body": "Itaalia laskesuusatäht Dorothea Wierer suutis tänavu MK-sarjas kaitsta mullust üldvõitu. Itaallanna rääkis nüüd kohalikule meediale, kuidas norralased tegid endast kõik.", "author": "Tarmo Paju", "date": "18:45"}
   ]
 }
